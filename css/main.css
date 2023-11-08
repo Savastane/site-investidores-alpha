@@ -4,20 +4,33 @@
 body {
   font-size: 14px;
 }
-.banner_institucional {  
-  opacity: 1;
-  position: absolute;
-  top: 104px;
-  left: 0px;
-  overflow: hidden;
-}
 .area_menu {
   width: 100%;
   height: 74px;
   opacity: 1;
-  position: absolute;
-  top: 0px;
+  /* position: absolute;
+  top: 0px; */
   left: 50px;
+  overflow: hidden;
+}
+.banner_institucional {  
+  opacity: 1;
+  /* position: absolute;
+  top: 104px; */
+  left: 0px;
+  overflow: hidden;
+}
+.area_doacao {
+  width: 100%;
+  height: 285px;
+  background: url("../images/v404_148.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  /* position: absolute;
+   top: 700px; */
+  left: 0px; 
   overflow: hidden;
 }
 
@@ -35,22 +48,116 @@ body {
   overflow: hidden;
 }
 
-.area_doacao {
+.area_depoimento {
   width: 100%;
-  height: 285px;
-  background: url("../images/v404_148.png");
+  height: 400px;
+  
+  opacity: 1;
+  /* position: absolute;
+  top: 1370px; */
+  /* left: 400px; */
+  overflow: hidden;
+}
+.area_depoimento_imagem {
+  width: 50%;
+  height: 50%;
+  background: url("../images/v404_58.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
-  top: 700px;
-  left: 0px;
+  /* position: absolute;*/
+  /* top: 100px; 
+  left: 400px; */
   overflow: hidden;
 }
+.area_apresentacao {
+  width: 70%;
+  color: rgba(0,0,0,1);
+  /* position: absolute; */
+  /* top: 2081px; */
+  left: 15%; 
+  font-family: Raleway;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: center;
+}
 
+.area_contagem {
+  width: 100%;
+  height: 139px;  
+  opacity: 1;   
+  overflow: hidden;
+}
+.area_endereco {
+  width: 100%;
+  height: 130px;
+  top: 140%; 
+  
+  opacity: 1;
+  position: absolute;
+  
+  left: 10%;
+  overflow: hidden;
+}
+.area_logradouro {
+  width: 570px;
+  height: 130px;
+  background: url("../images/v404_128.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;  
+  
+  overflow: hidden;
+}
+.area_contato {
+  width: 570px;
+  height: 130px;
+  background: rgba(81,46,130,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 570px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+.area_redes {
+  width: 21px;
+  color: rgba(0,0,0,1);
+  /* position: absolute;
+  top: 2729px;
+  left: 879px; */
+  font-family: Font Awesome 5 Brands;
+  font-weight: Regular;
+  font-size: 21px;
+  opacity: 1;
+  text-align: center;
+}
 
-
+.area_reservado {
+  width: 205px;
+  color: rgba(51,51,51,1);
+  position: absolute;
+  top: 2787px;
+  left: 0px;   
+  opacity: 1;
+  text-align: center;
+}
+.area_reservado1 {
+  width: 205px;
+  color: rgba(51,51,51,1);
+  
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
 .v404_29 {
   width: 100%;
   height: 2827px;
@@ -126,6 +233,7 @@ body {
   opacity: 1;
   text-align: left;
 }
+
 .v404_37 {
   width: 228px;
   height: 74px;
@@ -282,6 +390,16 @@ body {
   border-bottom-right-radius: 5px;
   overflow: hidden;
 }
+.v404_48a {
+  
+  color: rgba(255,255,255,1);
+    
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 19px;
+  opacity: 1;
+  text-align: center;
+}
 .v404_48 {
   width: 109px;
   color: rgba(255,255,255,1);
@@ -356,7 +474,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v404_54 {
+.area_doacao_cheia {
   width: 100%;
   height: 637px;
   background: url("../images/v404_54.png");
@@ -656,18 +774,7 @@ body {
   border-bottom-right-radius: 20px;
   overflow: hidden;
 }
-.v404_79 {
-  width: 100%;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 2081px;
-  left: 407px;
-  font-family: Raleway;
-  font-weight: Regular;
-  font-size: 22px;
-  opacity: 1;
-  text-align: center;
-}
+
 .v404_80 {
   width: 100%;
   color: rgba(0,0,0,1);
@@ -704,19 +811,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v404_83 {
-  width: 100%;
-  height: 139px;
-  background: url("../images/v404_83.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 2269px;
-  left: 390px;
-  overflow: hidden;
-}
+
 .v404_84 {
   width: 228px;
   height: 139px;
@@ -725,7 +820,7 @@ body {
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
+  /* position: absolute; */
   top: 0px;
   left: 0px;
   overflow: hidden;
@@ -764,7 +859,7 @@ body {
   left: 65px;
   font-family: Roboto;
   font-weight: SemiBold;
-  font-size: 69px;
+  font-size: 49px;
   opacity: 1;
   text-align: right;
 }
@@ -776,7 +871,7 @@ body {
   left: 103px;
   font-family: Roboto;
   font-weight: SemiBold;
-  font-size: 69px;
+  font-size: 49px;
   opacity: 1;
   text-align: left;
 }
@@ -865,7 +960,7 @@ body {
   left: 65px;
   font-family: Roboto;
   font-weight: SemiBold;
-  font-size: 69px;
+  font-size: 49px;
   opacity: 1;
   text-align: right;
 }
@@ -877,7 +972,7 @@ body {
   left: 103px;
   font-family: Roboto;
   font-weight: SemiBold;
-  font-size: 69px;
+  font-size: 49px;
   opacity: 1;
   text-align: left;
 }
@@ -966,7 +1061,7 @@ body {
   left: 65px;
   font-family: Roboto;
   font-weight: SemiBold;
-  font-size: 69px;
+  font-size: 49px;
   opacity: 1;
   text-align: right;
 }
@@ -978,7 +1073,7 @@ body {
   left: 103px;
   font-family: Roboto;
   font-weight: SemiBold;
-  font-size: 69px;
+  font-size: 49px;
   opacity: 1;
   text-align: left;
 }
@@ -1067,7 +1162,7 @@ body {
   left: 65px;
   font-family: Roboto;
   font-weight: SemiBold;
-  font-size: 69px;
+  font-size: 49px;
   opacity: 1;
   text-align: right;
 }
@@ -1079,7 +1174,7 @@ body {
   left: 103px;
   font-family: Roboto;
   font-weight: SemiBold;
-  font-size: 69px;
+  font-size: 49px;
   opacity: 1;
   text-align: left;
 }
@@ -1255,35 +1350,11 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v404_127 {
-  width: 100%;
-  height: 130px;
-  background: url("../images/v404_127.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 2528px;
-  left: 390px;
-  overflow: hidden;
-}
-.v404_128 {
-  width: 570px;
-  height: 130px;
-  background: url("../images/v404_128.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
+
+
 .v404_129 {
   width: 550px;
-  height: 32px;
+  height: 42px;
   background: url("../images/v404_129.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -1367,23 +1438,10 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v404_136 {
-  width: 570px;
-  height: 130px;
-  background: rgba(81,46,130,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 570px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  overflow: hidden;
-}
+
 .v404_137 {
   width: 550px;
-  height: 32px;
+  height: 42px;
   background: url("../images/v404_137.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -1439,7 +1497,7 @@ body {
   left: 102px;
   font-family: Roboto;
   font-weight: Regular;
-  font-size: 20px;
+  font-size: 15px;
   opacity: 1;
   text-align: left;
 }
@@ -1463,22 +1521,23 @@ body {
   left: 68px;
   font-family: Roboto;
   font-weight: Regular;
-  font-size: 20px;
+  font-size: 15px;
   opacity: 1;
   text-align: left;
 }
 .v404_144 {
-  width: 21px;
+  width: 18px;
   color: rgba(0,0,0,1);
-  position: absolute;
+   position: absolute;
   top: 2729px;
-  left: 879px;
+  left: 879px; 
   font-family: Font Awesome 5 Brands;
   font-weight: Regular;
   font-size: 21px;
   opacity: 1;
   text-align: center;
 }
+
 .v404_145 {
   width: 18px;
   color: rgba(0,0,0,1);
@@ -1632,15 +1691,4 @@ body {
   left: 21px;
   overflow: hidden;
 }
-.v404_158 {
-  width: 205px;
-  color: rgba(51,51,51,1);
-  position: absolute;
-  top: 2787px;
-  left: 1325px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 16px;
-  opacity: 1;
-  text-align: left;
-}
+
