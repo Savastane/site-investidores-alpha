@@ -4,6 +4,53 @@
 body {
   font-size: 14px;
 }
+.banner_institucional {  
+  opacity: 1;
+  position: absolute;
+  top: 104px;
+  left: 0px;
+  overflow: hidden;
+}
+.area_menu {
+  width: 100%;
+  height: 74px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  overflow: hidden;
+}
+
+.menu_logo {
+  width: 124px;
+  height: 47px;
+  background: url("../images/v404_32.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  overflow: hidden;
+}
+
+.area_doacao {
+  width: 100%;
+  height: 285px;
+  background: url("../images/v404_148.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 700px;
+  left: 0px;
+  overflow: hidden;
+}
+
+
+
 .v404_29 {
   width: 100%;
   height: 2827px;
@@ -27,32 +74,8 @@ body {
   left: 390px;
   overflow: hidden;
 }
-.v404_31 {
-  width: 228px;
-  height: 74px;
-  background: url("../images/v404_31.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v404_32 {
-  width: 124px;
-  height: 47px;
-  background: url("../images/v404_32.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  overflow: hidden;
-}
+
+
 .v404_33 {
   width: 228px;
   height: 74px;
@@ -248,7 +271,7 @@ body {
 .v404_47 {
   width: 208px;
   height: 44px;
-  background: rgba(81,46,130,1);
+  background: rgba(119, 62, 4, 0.925);
   opacity: 1;
   position: absolute;
   top: 15px;
@@ -319,6 +342,7 @@ body {
   top: 1px;
   left: 1px;
 }
+
 .v404_53 {
   width: 100%;
   height: 1058px;
@@ -1490,19 +1514,6 @@ body {
   font-size: 21px;
   opacity: 1;
   text-align: center;
-}
-.v404_148 {
-  width: 100%;
-  height: 285px;
-  background: url("../images/v404_148.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 1088px;
-  left: 0px;
-  overflow: hidden;
 }
 .v404_149 {
   width: 100%;
